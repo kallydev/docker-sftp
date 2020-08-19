@@ -2,7 +2,6 @@
 
 [![GitHub license](https://img.shields.io/github/license/kallydev/docker-sftp?style=flat-square)](LICENSE)
 [![GitHub last commit](https://img.shields.io/github/last-commit/kallydev/docker-sftp?style=flat-square)](https://github.com/kallydev/docker-sftp/commits/master)
-[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/kallydev/docker-sftp?style=flat-square)](https://hub.docker.com/r/kallydev/docker-sftp/builds)
 [![Docker Pulls](https://img.shields.io/docker/pulls/kallydev/docker-sftp?style=flat-square&logo=docker)](https://hub.docker.com/r/kallydev/docker-sftp)
 
 A SFTP service running in Docker.
@@ -26,14 +25,14 @@ docker pull kallydev/docker-sftp:latest
 - Pull from Github Packages (**Linux amd-64 only**)
 
 ```bash
-docker pull docker.pkg.github.com/kallydev/docker-sftp/docker-sftp:1.0.0
+docker pull docker.pkg.github.com/kallydev/docker-sftp/docker-sftp:1.0.1
 ```
 
 - Build from source
 
 ```bash
 git clone https://github.com/kallydev/docker-sftp && cd docker-sftp
-docker build -t kallydev/docker-sftp:latest -t kallydev/docker-sftp:1.0.0 .
+docker build -t kallydev/docker-sftp:latest -t kallydev/docker-sftp:1.0.1 .
 ```
 
 ### 3. Create users.conf
