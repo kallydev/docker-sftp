@@ -1,0 +1,16 @@
+ListenAddress 0.0.0.0
+ListenAddress ::
+
+PermitRootLogin no
+UsePAM yes
+
+AllowTcpForwarding no
+X11Forwarding no
+
+UseDNS no
+ChrootDirectory %h
+
+AcceptEnv LANG LC_*
+
+Subsystem sftp internal-sftp
+ForceCommand internal-sftp
