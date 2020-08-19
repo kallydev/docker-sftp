@@ -29,7 +29,7 @@ jobs:
       - name: Build and push Docker image
         env:
           DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
-          DOCKER_IMAGE_PLATFORM: linux/amd64
+          DOCKER_IMAGE_PLATFORM: linux/amd64,linux/arm/v7,linux/arm64
           REPOSITORY_NAME: ${{ github.repository }}
         run: |
           IFS='/' read -ra repository_name_array <<<"$REPOSITORY_NAME"
