@@ -25,14 +25,14 @@ docker pull kallydev/docker-sftp:latest
 - Pull from Github Packages (**Linux amd-64 only**)
 
 ```bash
-docker pull docker.pkg.github.com/kallydev/docker-sftp/docker-sftp:1.0.1
+docker pull docker.pkg.github.com/kallydev/docker-sftp/docker-sftp:latest
 ```
 
 - Build from source
 
 ```bash
 git clone https://github.com/kallydev/docker-sftp && cd docker-sftp
-docker build -t kallydev/docker-sftp:latest -t kallydev/docker-sftp:1.0.1 .
+docker build -t kallydev/docker-sftp:latest -t kallydev/docker-sftp:latest .
 ```
 
 ### 3. Create users.conf
